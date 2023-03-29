@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    align-self: center;
+}
+
+.container{
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+
+}
