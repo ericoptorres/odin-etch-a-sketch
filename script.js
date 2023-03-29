@@ -50,5 +50,3 @@ btn.addEventListener('click', () => {
     hoveringIn(box)
 })
 
-
-d
