@@ -36,14 +36,10 @@ function hoveringIn (box) {
         e.target.style.background = 'lightblue' 
     }))
 }
-function hoveringOut (box){
-    box.forEach(elem => elem.addEventListener('mouseout', (e) => {
-        e.target.style.background = 'white' 
-    }))
-}
+
 
 hoveringIn(box)
-hoveringOut(box)
+
 
 const btn = document.querySelector('button')
 btn.addEventListener('click', () => {
@@ -52,8 +48,7 @@ btn.addEventListener('click', () => {
     createGrid()
     box = document.querySelectorAll('.box')
     hoveringIn(box)
-    hoveringOut(box)
 })
 
 
-
+d
